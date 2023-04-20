@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <title>Aplicativo de Colagem</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <center>
+    <h1>Aplicativo de colagem</h1>
+    <br>
+    <hr>
+    <h3>Assim que o pop-up aparecer, clique em Permitir. Depois pode falar o comando.</h3>
+    <br>
+    <h2>Diga "Selfie" para tirar suas selfies e fazer a colagem.</h2>
+    <button onclick="iniciar()" id="botaoIniciar">Iniciar</button>
+    <h3>Pressione o botão Iniciar</h3>
+    <h4>Sua webcam:</h4>
+    <br>
+    <h4>Sua selfie vai aparecer aqui:</h4>
+    <div id="resultadoFileira">
+        <div id="resultadoFoto1">
+            <img src="foto1.jpg" id="foto1">
+        </div>
+        <br>
+        <div id="resultadoFoto2">
+            <img src="foto2.jpg" id="foto2">
+        </div>
+        <br>
+        <div id="resultadoFoto3">
+            <img src="foto3.jpg" id="foto3">
+        </div>
+    </div>
+</center>
+</body>
+
+</html>
